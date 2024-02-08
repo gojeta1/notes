@@ -75,6 +75,7 @@ export const NewNoteCard = ({onNoteCreated}: NewNoteCardProps) => {
 
     if(speechRecognition != null) {
       speechRecognition.stop()
+      toast.info('Gravação realizada com sucesso.')
     }
   }
 
